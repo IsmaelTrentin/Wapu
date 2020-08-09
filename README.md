@@ -1,4 +1,4 @@
-# Wapu - MAL Characters API  v1.1.0
+# Wapu - MAL Characters API  v1.2.1
 
 ### Prelude
 Since the shutdown of the original Discord [WaifuBot](https://top.gg/bot/472141928578940958?__cf_chl_jschl_tk__=643fd8446c0cc1eba03c41afbc2898630011ce93-1596852477-0-AS3MfJIozFYg4Et7jmr3OZiXSLB6m8uGcH1byFLXjdxvLuw-EJmYmi_vESyi6QC0Zo0oswvScxri0pzHBizPjgnsgtYJo4ZGsQ2GRXx5mlgbBzDWBlgT1YcdAdYMblzDPpR_eDy9ZK-2Hq9eUYjW1_Rxn1XFsqQQ3N5SuesL5q1R62-fLwi5BPguBwcDYSKQyVphmpoM_4x1nJ40SGSKZL98NgagPRKwWPFzVE6QS20wgGdTFQ2ZCgNlRUbJrIno8HKotP960FTckk9WFYuYlpknKLqPoAnLSeuBdV1eDORY_4rgqj0pXXC3K8cN0CJdww 'The one and only') I wanted to try and recreate it by myself.
@@ -67,7 +67,7 @@ interface Character{
 }
 ```
 
-* As of version __1.1.0__ the animeography contains only the amount of anime and not the names.
+* As of the **current version** the animeography contains only the amount of anime and not the names.
 
 #### Rarity field
 

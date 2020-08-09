@@ -13,6 +13,14 @@ will (most of the times) not be 100% efficient.
 
 ---
 
+### npm Package
+
+This package lets you use the API in an easy and understandable way. You can install with npm.
+
+```bash
+npm install wapu
+```
+
 ### Wapu
 This API let's you fetch [My Anime List](https://myanimelist.net 'MAL') characters data (name, aliases, ...). The data fields added
 by users (like gender, blood type, etc.) __are not included__ since they are not common through the characters. For example some have them and some not.

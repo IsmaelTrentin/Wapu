@@ -1,4 +1,4 @@
-import { Character} from "./Character";
+import { Character } from "./Character";
 import _fetch from 'node-fetch';
 
 /**
@@ -6,7 +6,7 @@ import _fetch from 'node-fetch';
  * from the website myanimelist.net or the database.
  * 
  * @author Ismael Trentin
- * @version 2020.08.08
+ * @version 2020.08.09
  * @since 1.0.0
  */
 export class Wapu {
@@ -28,7 +28,15 @@ export class Wapu {
           resolve(JSON.parse(json) as Character);
           return;
         })
-        .catch(err => reject(err));
+        .catch(err => {
+          if (err.code === 'ECONNREFUSED') {
+            reject('API offline');
+            return;
+          } else {
+            reject(err);
+            return;
+          }
+        });
     });
   }
 }

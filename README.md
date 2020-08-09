@@ -15,7 +15,7 @@ will (most of the times) not be 100% efficient.
 
 ### npm Package
 
-This package lets you use the API in an easy and understandable way. You can install with npm.
+This package lets you use the API in an easy and understandable way. You can install it with npm.
 
 ```bash
 npm install wapu

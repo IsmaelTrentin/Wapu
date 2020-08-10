@@ -121,7 +121,7 @@ you can find it in the URL when you visit the character page on the website.
 
 ```typescript
 Wapu.fetch(19566) // Mio Akiyama ID
-    .then((character:Character) => console.log(character))
+    .then((character: Character) => console.log(character))
     .catch(err => console.err(err));
 ```
 

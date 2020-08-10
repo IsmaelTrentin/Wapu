@@ -117,7 +117,7 @@ import { Wapu } from 'wapu';
 ```
 
 To fetch a character, use the `fetch(id:number)` method. The id is the My Anime List ID, 
-you can find it in the URL when you visit che character page on the website.
+you can find it in the URL when you visit the character page on the website.
 
 ```typescript
 Wapu.fetch(19566) // Mio Akiyama ID

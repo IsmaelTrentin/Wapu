@@ -18,6 +18,13 @@ will (most of the times) not be 100% efficient.
 
 ---
 
+### Links
+
+* 📱 [Twitter](https://twitter.com/wapu65268026 'Twitter') :  state updates and more info about updates.
+* 🧰 [npm](https://www.npmjs.com/package/wapu 'npm') : check out the wapu npm page.
+
+---
+
 ### npm Package
 
 This package lets you use the API in an easy and understandable way. You can install it with npm.

@@ -116,7 +116,7 @@ Then import it in your code, im going to use TypeScript language.
 import { Wapu } from 'wapu';
 ```
 
-To fetch a character, use the fetch( id ) method. The id is the My Anime List ID, 
+To fetch a character, use the `fetch(id:number)` method. The id is the My Anime List ID, 
 you can find it in the URL when you visit che character page on the website.
 
 ```typescript

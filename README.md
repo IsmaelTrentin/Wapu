@@ -139,7 +139,7 @@ lower.
 ```typescript
 Wapu.fetch(19566, false)  // Returns only if is in the database.
     .then((character:Character) => console.log(character))
-    .catch(err => console.err(err));
+    .catch(err => console.error(err));
 ```
 
 * In this case, if the character with id __19566__ is not stored in the database the code 

@@ -5,7 +5,7 @@
 Don't rely on this API since is in testing and will probably be offline most of the times. I will try to
 fix it so that it will be up 24/7 by the end of summer (more likely before). 
 
-### Prelude
+### Premise
 Since the shutdown of the original Discord [WaifuBot](https://top.gg/bot/472141928578940958?__cf_chl_jschl_tk__=643fd8446c0cc1eba03c41afbc2898630011ce93-1596852477-0-AS3MfJIozFYg4Et7jmr3OZiXSLB6m8uGcH1byFLXjdxvLuw-EJmYmi_vESyi6QC0Zo0oswvScxri0pzHBizPjgnsgtYJo4ZGsQ2GRXx5mlgbBzDWBlgT1YcdAdYMblzDPpR_eDy9ZK-2Hq9eUYjW1_Rxn1XFsqQQ3N5SuesL5q1R62-fLwi5BPguBwcDYSKQyVphmpoM_4x1nJ40SGSKZL98NgagPRKwWPFzVE6QS20wgGdTFQ2ZCgNlRUbJrIno8HKotP960FTckk9WFYuYlpknKLqPoAnLSeuBdV1eDORY_4rgqj0pXXC3K8cN0CJdww 'The one and only') I wanted to try and recreate it by myself.
 At first I searched for any [My Anime List](https://myanimelist.net 'MAL') APIs, but none of the small amount of existing one fit 
 my requirements. Since i knew nothing about APIs I didn't want to create one by myself so I 

@@ -23,8 +23,6 @@ will (most of the times) not be 100% efficient.
 * 📱 [Twitter](https://twitter.com/wapu65268026 'Twitter') :  state updates and more info about updates.
 * 🧰 [npm](https://www.npmjs.com/package/wapu 'npm') : check out the wapu npm page.
 
----
-
 ### npm Package
 
 This package lets you use the API in an easy and understandable way. You can install it with npm.
@@ -32,6 +30,8 @@ This package lets you use the API in an easy and understandable way. You can ins
 ```bash
 npm install wapu
 ```
+
+---
 
 ### Wapu
 This API let's you fetch [My Anime List](https://myanimelist.net 'MAL') characters data (name, aliases, ...). The data fields added

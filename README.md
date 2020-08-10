@@ -35,7 +35,8 @@ npm install wapu
 
 ### Wapu
 This API let's you fetch [My Anime List](https://myanimelist.net 'MAL') characters data (name, aliases, ...). The data fields added
-by users (like gender, blood type, etc.) __are not included__ since they are not common through the characters. For example some have them and some not.
+by users (like gender, blood type, etc.) __are not included__ since they are not common through the 
+characters. For example some have them and some not.
 
 
 ### Allowed HTTPs requests:
@@ -97,5 +98,52 @@ The rarity is calculated based on the user votes. These are the ranges:
 |θ     |[60000, 70000[  |
 |ι     |[70000, 99999[  |
 |λ     |[100000, ∞[     |
+
+
+## Usage
+
+### Example
+
+First install the npm package. It's has included types so you can use it in typescript.
+
+```bash
+npm install wapu
+```
+
+Then import it in your code, im going to use TypeScript language.
+
+```typescript
+import { Wapu } from 'wapu';
+```
+
+To fetch a character, use the fetch( id ) method. The id is the My Anime List ID, 
+you can find it in the URL when you visit che character page on the website.
+
+```typescript
+Wapu.fetch(19566) // Mio Akiyama ID
+    .then((character:Character) => console.log(character))
+    .catch(err => console.err(err));
+```
+
+* Note: in this case, if the character is not in the database, it's going to be fetched
+from the website and then stored in the database.
+
+#### The save parameter
+
+When you fetch a character the API tries to fetch the database. If the database does 
+not contain the character, the API will fetch the website, return the character to you
+and then create a new record for it in the database. The next time you will fetch this
+character, it will be fetched from the database and the fetch time will be significantly
+lower.
+
+```typescript
+Wapu.fetch(19566, false)  // Returns only if is in the database.
+    .then((character:Character) => console.log(character))
+    .catch(err => console.err(err));
+```
+
+* In this case, if the character with id __19566__ is not stored in the database the code 
+above will fail and log the error. 
+
 
 

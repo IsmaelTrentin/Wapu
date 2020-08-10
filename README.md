@@ -138,7 +138,7 @@ lower.
 
 ```typescript
 Wapu.fetch(19566, false)  // Returns only if is in the database.
-    .then((character:Character) => console.log(character))
+    .then((character: Character) => console.log(character))
     .catch(err => console.error(err));
 ```
 
